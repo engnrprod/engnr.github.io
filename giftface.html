@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anim.css">
+    <link rel="stylesheet" href="https://use.typekit.net/blw6lgt.css">
+
+    <link rel="stylesheet" href="css/player.css" />
+
+    <title>Eleventh Son</title>
+  </head>
+
+  <body class="film-player-page">
+
+      <section class="film-player-wrapper h-100 w-100 d-flex flex-column align-items-center justify-content-center px-2 px-sm-5 ">
+        <a href="#" class="close"></a>
+
+        <div class="vid-wrapper ">
+          <video
+               id="my-video"
+               class="video-js"
+               controls
+               width="900"
+               height=""
+               preload="auto"
+               poster="img/film/bevelgiftface.jpg"
+               data-setup=""
+             >
+               <source src="video/Bevel-GiftFaces.mp4" type="video/mp4" />
+
+          </video>
+        </div>
+
+        <div class="film-player-details d-flex flex-column w-100 text-center ">
+          <span class="details-title text-white mt-3">Gift Faces</span>
+          <span class="details-client text-white mt-1">Bevel</span>
+        </div>
+      </section>
+
+
+
+<style media="screen">
+.film-player-page {
+  background:black;
+  height:100%;
+  overflow:hidden;
+}
+.film-player-details {
+  margin-top:25px;
+  font-family: futura pt;
+  text-transform: uppercase;
+}
+.details-title {
+  font-weight:500;
+  font-size:14px;
+  letter-spacing:7px;
+}
+.details-client {
+  font-weight:400;
+  font-size:12px;
+  letter-spacing:3px;
+  color:#999 !important;
+}
+.vid-wrapper {
+  width:100%;
+  max-width:900px;
+  margin-top:122px;
+}
+.close {
+  position:absolute;
+  top:0;
+  right:0;
+  margin:25px 25px 0 0;
+  opacity: 1;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+.close:before {
+  content: "";
+  display:block;
+  height:40px;
+  width:40px;
+  background-size: 40px 40px;
+  background-image: url(img/icons/eleventhson-close.png);
+  background-repeat: no-repeat;
+}
+.user-inactive {
+  visibility: visible;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s;
+}
+.btn-ctrl {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:absolute;
+  width:100%;
+  height:40px;
+  z-index:3;
+}
+/* .btn-ctrl.vjs-user-inactive, .vjs-progress-control.vjs-user-inactive {
+  visibility: visible;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s;
+}*/
+
+</style>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/video.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+</html>
