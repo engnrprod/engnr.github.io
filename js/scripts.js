@@ -2419,7 +2419,6 @@ Function Load Via Ajax
 
 
 
-
 	$( document ).ready(function() {
 		$( "button.vjs-control" ).wrapAll( "<div class='btn-ctrl'></div>" );
 		$( ".vjs-picture-in-picture-control" ).remove();
