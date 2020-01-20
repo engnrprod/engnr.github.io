@@ -1054,11 +1054,10 @@ font-style: normal;
 	.percentage {
 		z-index: 100;
 		opacity:1;
-		font-weight: 700;
+		font-weight: 800;
 		font-size: 120px;
 		line-height: 120px;
 		color: #000;
-		font-weight: 700;
 		text-shadow: 0 0 7px rgba(255, 255, 255, 0.8);
 	}
 
@@ -1536,7 +1535,7 @@ font-style: normal;
 		}
 
 		.fullscreen-menu .flexnav li a {
-			font-weight: 700;
+			font-weight: 800;
 			font-size:45px !important;
 			line-height:45px !important;
 			padding:0;
@@ -1874,7 +1873,7 @@ font-style: normal;
 		font-size:40px;
 		line-height:40px;
 		height:40px;
-		font-weight: 700;
+		font-weight: 800;
 		z-index:10;
 		color:#000;
 		position:relative;
@@ -2190,7 +2189,7 @@ font-style: normal;
 	}
 
 	.page-title {
-		font-weight: 700;
+		font-weight: 800;
 		margin-bottom:0px;
 		vertical-align: top;
 		width:auto;
@@ -2893,7 +2892,7 @@ font-style: normal;
 	}
 
 	.flexnav li a {
-		font-weight: 700;
+		font-weight: 800;
 		font-size:60px;
 		line-height:60px;
 		letter-spacing: 2px;
@@ -3416,7 +3415,7 @@ font-style: normal;
 
 
 .title {
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 40px;
 	letter-spacing: 0em;
   text-transform: uppercase !important;
