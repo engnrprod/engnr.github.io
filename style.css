@@ -30,8 +30,10 @@ Primary use:	Showcase Portfolio
 	01. General Settings
 ---------------------------------------------------*/
 
+
 	html,body{
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		font-weight: 300;
 		font-size:15px;
 		height:100%;
@@ -1290,7 +1292,8 @@ Primary use:	Showcase Portfolio
 			position:relative;
 			border-left: medium none;
 			font-weight: 600;
-			font-family: 'futura pt', sans-serif;
+			font-family: futura-pt, sans-serif;
+font-style: normal;
 			color:#000;
 			font-size:12px;
 			line-height:20px;
@@ -1573,7 +1576,8 @@ Primary use:	Showcase Portfolio
 			padding: 10px 0;
 			font-size: 14px;
 			font-weight: 500;
-			font-family: 'futura pt', sans-serif;
+			font-family: futura-pt, sans-serif;
+font-style: normal;
 			line-height:20px;
 			border-top: none;
 			text-transform:none;
@@ -1985,7 +1989,8 @@ Primary use:	Showcase Portfolio
 		left: 0;
 		overflow: hidden;
 		font-weight: 600;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		font-size: 12px;
 		color:#000;
 	}
@@ -2224,7 +2229,8 @@ Primary use:	Showcase Portfolio
 		display: block;
 		font-size:16px;
 		font-weight: 600;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 	}
 
 	.subtitle-name {
@@ -2289,7 +2295,8 @@ Primary use:	Showcase Portfolio
 		overflow: hidden;
 		font-size: 10px;
 		font-weight: 300;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		line-height: 30px;
 		color: #000;
 		pointer-events: initial;
@@ -2331,7 +2338,8 @@ Primary use:	Showcase Portfolio
 		float:right;
 		font-size:12px;
 		font-weight: 600;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		line-height:40px;
 		transform:translateY(20px);
 	}
@@ -2546,7 +2554,8 @@ Primary use:	Showcase Portfolio
 
 	.button-text {
 		font-weight: 600;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		font-size: 12px;
 		line-height:30px;
 		margin:25px 0;
@@ -2908,7 +2917,8 @@ Primary use:	Showcase Portfolio
 	.flexnav li ul li a {
 		padding: 10px 0;
 		font-weight: 500;
-		font-family: 'futura pt', sans-serif;
+		font-family: futura-pt, sans-serif;
+font-style: normal;
 		text-transform:none;
 		font-size: 12px;
 		line-height: 14px;
