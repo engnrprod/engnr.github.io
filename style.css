@@ -1529,6 +1529,7 @@ Primary use:	Showcase Portfolio
 
 		.fullscreen-menu .flexnav li.link {
 			border-bottom: none;
+			padding: 15px 25px;
 		}
 
 		.fullscreen-menu .flexnav li a {

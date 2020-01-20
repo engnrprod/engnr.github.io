@@ -345,13 +345,15 @@
 		line-height:40px;
 		text-align:center;
 		font-family: 'Line Awesome Free';
-		content: "\f106";
+		/*content: "\f106";*/
 		color: #000;
 		-webkit-transition: 0.15s ease-in-out;
 		transition: 0.15s ease-in-out;
 	}
-
-/*	.arrows-wrap .swiper-button-prev::after {
+/*  .prev-wrap {
+		opacity:0;
+	}
+	.arrows-wrap .swiper-button-prev::after {
 		height: 0px;
 		width: 2px;
 		position: absolute;
@@ -378,7 +380,7 @@
 		line-height:40px;
 		text-align:center;
 		font-family: 'Line Awesome Free';
-		content: "\f107";
+		/*content: "\f107";*/
 		color: #000;
 		-webkit-transition: 0.15s ease-in-out;
 		transition: 0.15s ease-in-out;
@@ -407,7 +409,9 @@
 	}
 
 	.arrows-wrap .swiper-button-next.swiper-button-disabled, .arrows-wrap .swiper-button-prev.swiper-button-disabled {
-		opacity: 1;
+		opacity: 0;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
 	}
 
 
