@@ -171,7 +171,7 @@
   border:1px solid #000000 !important;
 }
 :focus {
-outline: 0;
+outline: 0 !important;
 }
 .video-js:-moz-full-screen {
   position: absolute;
@@ -714,7 +714,8 @@ body.vjs-full-window {
   background-color: transparent;
   color: #FFFFFF;
   float: right;
-  font-family: futura pt;
+  font-family: futura-pt, sans-serif;
+font-style: normal;
   font-size: 13px;
   letter-spacing: 1px;
   padding: 6px 8px 8px 8px;
@@ -1520,7 +1521,8 @@ overflow:hidden;
 }
 .film-player-details {
 margin-top:25px;
-font-family: futura pt;
+font-family: futura-pt, sans-serif;
+font-style: normal;
 text-transform: uppercase;
 }
 .details-title {
@@ -1552,4 +1554,13 @@ position:absolute;
 width:100%;
 height:40px;
 z-index:3;
+}
+
+
+@media only screen and (max-width: 767px) {
+.user-inactive {
+visibility: visible;
+opacity: 1;
+transition: visibility 1s, opacity 1s;
+}
 }
