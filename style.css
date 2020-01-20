@@ -3469,5 +3469,6 @@ font-style: normal;
 }
 
 .film-player-wrapper {
-	min-height: -webkit-fill-available;
+	height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
