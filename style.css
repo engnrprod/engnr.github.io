@@ -2630,6 +2630,9 @@ font-style: normal;
 	}
 
 
+	.film-player-wrapper {
+		height: 100vh;
+	}
 
 /*--------------------------------------------------
 	08. Responsive
@@ -3065,6 +3068,9 @@ font-style: normal;
 
 
 @media only screen and (max-width: 767px) {
+	.film-player-wrapper {
+		height: calc(100% - 80px);
+	}
 
 	.percentage {
     	font-size: 7vw;
@@ -3466,9 +3472,4 @@ font-style: normal;
 .about-pg {
 	height: 100vh;
 	padding:80px 0 140px;
-}
-
-.film-player-wrapper {
-	height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
 }
