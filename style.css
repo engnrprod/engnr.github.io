@@ -3467,3 +3467,7 @@ font-style: normal;
 	height: 100vh;
 	padding:80px 0 140px;
 }
+
+.film-player-wrapper {
+	height: 100vh;
+}
