@@ -2405,30 +2405,14 @@ Function Load Via Ajax
 
 
 
-
-	//var howManySlides = $(".swiper-slide").length;
-	//var firstSlideActive = $( ".swiper-wrapper" ).first().hasClass( "swiper-slide-active" );
-	//var lastSlideActive = $( ".swiper-wrapper" ).last().hasClass( "swiper-slide-active" );
-	//if (firstSlideActive) {
-		//$( ".swiper-button-prev" ).css( "opacity", "0" );
-	//}
-	//if (lastSlideActive) {
-		//$( ".swiper-button-next" ).css( "opacity", "0" );
-	//}
+var player = videojs('my-video', {
+	fill: true,
+	aspectRatio: '16:9'
+});
 
 
-
-
-	$( document ).ready(function() {
-		$( "button.vjs-control" ).wrapAll( "<div class='btn-ctrl'></div>" );
-		$( ".vjs-picture-in-picture-control" ).remove();
-	});
-
-
-	var player = videojs('my-video', {
-		fill: true,
-		aspectRatio: '16:9'
-	});
+$( "button.vjs-control" ).wrapAll( "<div class='btn-ctrl'></div>" );
+$( ".vjs-picture-in-picture-control" ).remove();
 
 
 idleTimer = null;
