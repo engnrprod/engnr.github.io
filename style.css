@@ -2896,7 +2896,7 @@ font-style: normal;
 		font-size:60px;
 		line-height:60px;
 		letter-spacing: 2px;
-		padding:0;
+		padding:15px 0;
 	}
 
 	.flexnav li a {
@@ -3460,4 +3460,10 @@ font-style: normal;
 		margin:0 auto 45px;
 		opacity: 0.4;
 
+}
+
+
+.about-pg {
+	height: 100vh;
+	padding:80px 0 140px;
 }
